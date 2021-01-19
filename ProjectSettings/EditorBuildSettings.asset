@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StartScene.unity
+    guid: 759afbefac167704488b4bfc39a71ea4
+  - enabled: 1
+    path: Assets/Scenes/SelectScene.unity
+    guid: 50a169f306dd8b14babb61ec18a24132
+  - enabled: 1
+    path: Assets/Scenes/TakekomaARScene.unity
+    guid: 060d5fff36dd83044afe117cf54c7890
+  - enabled: 1
+    path: Assets/Scenes/UesugiARScene.unity
+    guid: 67810902ce0295b4b95caf2908dd0468
+  - enabled: 1
+    path: Assets/Scenes/MoriokaARScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 7f9a6a4b8de21494cafcbf77025fb465, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 84c49a77421f1f744864c9151458ce6e, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a760791fea12d0a43aab666626ae987b, type: 2}
